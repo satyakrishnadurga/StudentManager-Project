@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="studentmanager">
+        <h1>Student Manager</h1>
+     <div class="details">
+        <div>
+                <label></label><br>
+                <input type="text" id="nameInput" placeholder="Name"/>
+        </div>
+        <div>   
+                <label></label><br>
+                <input type="number" id="ageInput" placeholder="Age"/>
+        </div>    
+        <div>
+                <label ></label><br>
+                <input  type="text" id="courseInput" placeholder="Course"/>
+        </div>
+     </div>
+          <div class="button">
+         <button onclick="addstudent()">Add Student</button>
+          </div>
+          <div id="studentList"></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

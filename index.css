@@ -1,0 +1,19 @@
+body{
+    background-image: url("https://img.freepik.com/free-psd/realistic-school-supplies_23-2150588345.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.details{
+    text-align: center;
+}
+button{
+    background-color: rgb(32, 169, 223);
+}
+.button{
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
